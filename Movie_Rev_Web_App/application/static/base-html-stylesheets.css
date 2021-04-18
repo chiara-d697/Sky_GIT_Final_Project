@@ -1,0 +1,21 @@
+body {
+    background-color: #081127;
+}
+
+h1,h3,h5,h6 {
+    color:#EC8916;
+    font-family: Source Sans Pro;
+}
+
+p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    color: white;
+}
+
+section {
+    background-color: #081127;
+}
