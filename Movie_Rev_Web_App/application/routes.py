@@ -6,3 +6,7 @@ from application import app
 @app.route('/home')
 def home():
     return render_template('home.html', title="Home")
+
+@app.route('/new-gods-nezha-reborn')
+def newgodsnezhareborn():
+    return render_template('new-gods-nezha-reborn.html', title="New Gods: Nezha Reborn")
