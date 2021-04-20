@@ -2,20 +2,36 @@ body {
     background-color: #081127;
 }
 
-h1,h3,h5,h6 {
-    color:#EC8916;
+h1, h3, h5, h6 {
+    color: #EC8916;
     font-family: Source Sans Pro;
+    text-align: center;
+}
+
+h1 {
+    font-size: 80px;
 }
 
 p {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 25px;
+    font-family: Source Sans Pro;
+    text-align: center;
     color: white;
 }
 
 section {
-    background-color: #081127;
+    font-family: Source Sans Pro;
+    text-align: center;
+    color: white;
 }
+
+.carousel-caption {
+    text-align: left;
+    color: white;
+}
+
+.carousel-inner .item img {
+width: 100%; /* or width: 100% !important; */
+}
+
+
+
