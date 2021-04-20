@@ -5,6 +5,7 @@ body {
 }
 
 .new-gods-intro {
+    text-align: center;
     color: #EC8916;
 }
 
@@ -16,7 +17,6 @@ body {
 
 .new-gods-review p {
     margin: 0px 60px;
-
 }
 
 div.review-image-center {
@@ -30,4 +30,14 @@ div.review-image-center {
 div.comment-section {
     color: #EC8916;
     font-size: 20px;
+}
+
+div.other-reviews {
+    display: flex;
+    justify-content: center;
+    color: #EC8916;
+}
+
+div.other-reviews-film {
+    margin: 0% 3%;
 }
